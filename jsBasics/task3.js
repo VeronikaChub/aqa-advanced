@@ -6,3 +6,4 @@ else adaltage = false;
 
 console.log(adaltage);
 console.log(age);
+console.log(adaltage);
