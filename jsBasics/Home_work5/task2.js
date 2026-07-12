@@ -1,8 +1,5 @@
 let Adult = function (age) {
-    if (age >= 18) {
-        return true;
-    }
-    return false;
+    return age >= 18;
 };
 let value1 = Adult(15);
 let value2 = Adult(25);
