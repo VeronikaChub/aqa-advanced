@@ -1,5 +1,5 @@
 
-let calcilator = function (numerator, denominator) {
+let divide = function (numerator, denominator) {
     if (denominator === 0) {
         throw new Error("Ділити на 0 не можна!");
     }
@@ -10,19 +10,19 @@ let calcilator = function (numerator, denominator) {
 }
 
 try {
-    const result = calcilator("mdmd", 7);
+    const result = divide("mdmd", 7);
     console.log(result);
 } catch (error) {
     console.error("Сталася помилка:", error.message);
 } finally {
-    console.log("Виконано!")
+    console.log("Робота завершена!")
 };
 
 try {
-    const result = calcilator(100, 0);
+    const result = divide(100, 0);
     console.log(result);
 } catch (error) {
     console.error("Сталася помилка:", error.message);
 } finally {
-    console.log("Виконано!")
+    console.log("Робота завершена!")
 };
