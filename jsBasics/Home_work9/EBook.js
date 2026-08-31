@@ -8,8 +8,6 @@ export default class EBook extends Book {
    get format() {
         return this._format;
     }
-
-    // SETTER для format
     set format(value) {
         const allowedFormats = ["pdf", "epub", "fb2"];
 
